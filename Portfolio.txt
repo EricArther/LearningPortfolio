@@ -1,0 +1,12 @@
+-----Hello World-----
+Making the console app that outputs "Hello World". Twice.
+One of the way to do this is simply use the code
+
+Console.WriteLine("Hello World");
+
+The another way to do this is initialise the named value then output that value.
+
+string output = "Hello World";
+Console.WriteLine(output);
+
+In the first line of the code, "Hello World" was assigned to the string value named "output".
