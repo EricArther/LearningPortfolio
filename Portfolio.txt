@@ -10,3 +10,24 @@ string output = "Hello World";
 Console.WriteLine(output);
 
 In the first line of the code, "Hello World" was assigned to the string value named "output".
+
+
+
+-----Variables, Operators and Decisions-----
+Understanding operators. +, -, * and / can be used for calculation. Like
+
+int number1 = 3;
+int number2 = 5
+int number3 = number1 + number2;
+
+in this case, the value "number3" has is 8 (3+5).
+
+To read the user input, this code will be used.
+
+Console.ReadLine();
+
+This code itself or inputs from this code works as string value so if the int value was required from the user
+
+int.Parse();
+
+can be used. This code converts the value in brackets into int.
