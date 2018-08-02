@@ -31,3 +31,34 @@ This code itself or inputs from this code works as string value so if the int va
 int.Parse();
 
 can be used. This code converts the value in brackets into int.
+
+
+
+-----Conditional Statements and Program Flow. Loops.-----
+"if" statement can be used for checking a condition like checking what the value user entered or checking if two values are same.
+
+int i = 5;
+int ii = 5;
+if(i == ii){
+  Console.WriteLine("they are same.");
+}
+
+it will print out the message "they are same." because condition in brackets are met (i == ii / 5 == 5). In words, it is "if i and ii are same say they are same.". With "else" you can set the action when the if condition weren't met.
+
+int i = 5;
+int ii = 4;
+if(i == ii){
+  Console.WriteLine("they are same.");
+}else {
+  Console.WriteLine("they are not same");
+}
+
+it will print out the message "they are not same." because condition in brackets are not met (i == ii /  5 == 4 but they are not). "else if" can be used to set another condition. If the condition weren't met it'll check next one.
+
+int i = 5;
+int ii = 4;
+if(i == ii){
+  Console.WriteLine("they are same.");
+}else if (i > ii){
+  Console.WriteLine("i is bigger than ii");
+}
