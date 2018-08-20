@@ -53,7 +53,7 @@ if(i == ii){
   Console.WriteLine("they are not same");
 }
 
-it will print out the message "they are not same." because condition in brackets are not met (i == ii /  5 == 4 but they are not). "else if" can be used to set another condition. If the condition weren't met it'll check next one.
+it will print out the message "they are not same." because condition in brackets are not met (i == ii /  5 == 4. Obviously they are not). "else if" can be used to set another condition. If the condition weren't met it'll check next one.
 
 int i = 5;
 int ii = 4;
@@ -61,6 +61,11 @@ if(i == ii){
   Console.WriteLine("they are same.");
 }else if (i > ii){
   Console.WriteLine("i is bigger than ii");
+} else if (i < ii){
+  Console.WriteLine("i is smaller than ii");
 }
 
+The reason to use else if is for the application to check the statement that is necessary. In the example above, "i is bigger than ii" will be printed out on the console. But if i and ii is same, it will print put "they are same" then just ignore the rest of the else if statements.
+
 ----Loops-----
+Loops can exsecute the same code multiple time until the statements are met.
