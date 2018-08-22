@@ -69,3 +69,6 @@ The reason to use else if is for the application to check the statement that is 
 
 ----Loops-----
 Loops can exsecute the same code multiple time until the statements are met.
+
+-----Algebra-----
+
